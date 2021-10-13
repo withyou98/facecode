@@ -20,7 +20,7 @@ while True:
     eyes = eye_cascade.detectMultiScale(gray, scaleFactor= 1.5, minNeighbors=3, minSize=(10,10))
     print(faces)
 
-    # 찾은 얼굴이 있으면
+    # 찾은 얼굴이 있으면c
     # 얼굴 영역을 영상에 사각형으로 표시
     if len(faces) :
         for  x, y, w, h in faces :
